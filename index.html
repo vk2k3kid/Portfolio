@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bala Venkata Varun Kumar's Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <img id="headerImage" src="C:\Users\Varun Kumar\OneDrive\Desktop\images\image6.jpg" alt="Portfolio Image" class="header-image">
+            <h1>Bala Venkata Varun Kumar</h1>
+            <p>Welcome to my Portfolio</p>
+            <!-- These are the buttons to show sections -->
+            <button id="aboutButton" onclick="toggleAbout()">About Me</button>
+            <button onclick="scrollToSection('education')">Education</button>
+            <button onclick="scrollToSection('experience')">Experience</button>
+            <button onclick="scrollToSection('projects')">Projects</button>
+            <button onclick="scrollToSection('contact')">Contact</button>
+        </div>
+    </header>
+
+    <!-- About Me Section (Initially hidden) -->
+    <section id="about" class="content-section hidden">
+        <h2>About Me</h2>
+        <p><strong>Name:</strong> Bala Venkata Varun Kumar</p>
+        <p><strong>Born:</strong> September 8, 2003</p>
+        <p><strong>Email:</strong> mr.vk9381@gmail.com</p>
+        <p><strong>Phone:</strong> 9381997606</p>
+        <p><strong>Location:</strong> Machilipatnam, Andhra Pradesh</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="content-section hidden">
+        <h2>Education</h2>
+        <div class="education-content">
+            <div class="education-details">
+                <ul>
+                    <li>
+                        <strong>Bachelor of Technology in Electronics and Communication Engineering</strong><br>
+                        Rajiv Gandhi University of Knowledge Technologies - Andhra Pradesh (Ongole) <br>
+                        <em>2020 – 2024</em><br>
+                        Ongole
+                    </li>
+                    <li>
+                        <strong>Pre-University Course</strong><br>
+                        Rajiv Gandhi University of Knowledge Technologies - Andhra Pradesh (Ongole) <br>
+                        <em>2018 – 2020</em><br>
+                        Ongole
+                    </li>
+                    <li>
+                        <strong>Secondary Education</strong><br>
+                        Zilla Parishad High School - Mallavolu, Krishna-II <br>
+                        GPA: 10.0 <br>
+                        <em>2017 – 2018</em><br>
+                        Mallavolu
+                    </li>
+                </ul>
+            </div>
+            <!-- Add the College Image on the right side -->
+            <div class="education-image">
+                <img src="C:\Users\Varun Kumar\OneDrive\Desktop\images\college.png" alt="Rajiv Gandhi University Image">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="content-section hidden">
+        <h2>Professional Experience</h2>
+        <ul>
+            <li>Technical Mentor at Qlearncept EdTech LLP</li>
+            <li>Embedded Systems Intern at Mechinex Automation Pvt. Ltd.</li>
+            <li>IoT Intern at Emertxe Information Technologies</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="content-section hidden">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>IoT-based Home Automation Solution</strong>
+                <p>Completed a SDLC-based project on Home Automation during my internship.</p>
+            </li>
+            <li>
+                <strong>Door Alarm Using Arduino and Ultrasonic Sensor</strong>
+                <p>Completed a project on Door Alarm using Arduino and Ultrasonic sensor as an academic mini project.</p>
+            </li>
+            <li>
+                <strong>Facial Recognition Based Door Lock Using Open CV, Python, and Arduino</strong>
+                <p>Completed a facial recognition-based door lock project using Open CV, Python, and Arduino as an academic mini project.</p>
+            </li>
+            <li>
+                <strong>Flood Detection System</strong>
+                <p>Completed an Arduino-based flood detection system project as my academic project.</p>
+            </li>
+            <li>
+                <strong>Smart TV Gesture Recognition using Machine Learning</strong>
+                <p>Completed a project on Gesture recognition using Machine Learning at the tech fest ORNATE 2K22 held at RGUKT Ongole.</p>
+            </li>
+            <li>
+                <strong>Bluetooth Controlled Car Using Live Feedback</strong>
+                <p>Completed an experimental project in the Robotics Laboratory conducted at RGUKT Ongole.</p>
+            </li>
+            <li>
+                <strong>Object Detection Using ESP32 CAM</strong>
+                <p>Completed a project on object detection using ESP32 CAM.</p>
+            </li>
+            <li>
+                <strong>Clap Circuit</strong>
+                <p>Implemented a sound-activated switching mechanism using a sound sensor and Arduino to control an output device.</p>
+            </li>
+            <li>
+                <strong>RGB LED with Sa Re Ga Ma Pa Tones</strong>
+                <p>Programmed an Arduino to produce musical notes on a buzzer (Sa, Re, Ga, Ma, Pa) based on LED color changes.</p>
+            </li>
+            <li>
+                <strong>Soil Moisture Level Indicator</strong>
+                <p>Developed a system to monitor soil moisture levels using LED indicators for water requirements.</p>
+            </li>
+            <li>
+                <strong>Obstacle Avoiding Robot</strong>
+                <p>Built an autonomous robot using an ultrasonic sensor to detect and avoid obstacles.</p>
+            </li>
+            <li>
+                <strong>Line Following Robot</strong>
+                <p>Created a robotic system that follows a predefined path using IR sensors.</p>
+            </li>
+            <li>
+                <strong>Self-Watering Plant</strong>
+                <p>Designed an automated irrigation system using soil moisture sensors for efficient plant watering.</p>
+            </li>
+            <li>
+                <strong>Bluetooth-Based Home Automation</strong>
+                <p>Developed a Bluetooth-controlled smart home system.</p>
+            </li>
+            <li>
+                <strong>Heart Rate Monitor</strong>
+                <p>Developed a heart rate monitoring system using Arduino and a pulse sensor.</p>
+            </li>
+            <li>
+                <strong>Smoke Detector</strong>
+                <p>Created a smoke detection system using an MQ2 sensor and Arduino.</p>
+            </li>
+            <li>
+                <strong>Multi-LED Blink and Sound Symphony</strong>
+                <p>Programmed multiple LEDs and a buzzer with Arduino to create a synchronized light and sound display, enhancing creative problem-solving.</p>
+            </li>
+            <li>
+                <strong>BouquetBot (Bluetooth Controlled Robot)</strong>
+                <p>A Bluetooth-controlled 4-wheel robot with a cardboard body and wooden base, designed to deliver bouquets to guests at the STEM Expo held at Pranav International School, Maruthi Nagar, Hyderabad.</p>
+            </li>
+        </ul>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section hidden">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:mr.vk9381@gmail.com">mr.vk9381@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919381997606">+91 93819 97606</a></p>
+        <!-- Resume Buttons -->
+        <div class="resume-buttons">
+            <!-- View Resume Button -->
+            <button onclick="window.open('file:///C:/Users/Varun%20Kumar/OneDrive/Desktop/files/resume.pdf', '_blank')">View Resume</button>
+            
+            <!-- Download Resume Button -->
+            <a href="file:///C:/Users/Varun%20Kumar/OneDrive/Desktop/files/resume.pdf" download>
+                <button>Download Resume</button>
+            </a>
+        </div>
+        
+        
+        <!-- Social Media Links with Icons -->
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/varun-k-68a38b230/" target="_blank" title="LinkedIn">
+                <img src="C:\Users\Varun Kumar\Downloads\5296501_linkedin_network_linkedin logo_icon (1).png" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/mr.vk_8" target="_blank" title="Instagram">
+                <img src="C:\Users\Varun Kumar\Downloads\6929237_instagram_icon.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://wa.me/+919381997606" target="_blank" title="WhatsApp">
+                <img src="C:\Users\Varun Kumar\Downloads\5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png" alt="WhatsApp" class="social-icon">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Bala Venkata Varun Kumar. All rights reserved.</p>
+        
+        <!-- Social Media Links in Footer -->
+        <div class="social-media-footer">
+            <a href="https://www.linkedin.com/in/varun-k-68a38b230/" target="_blank" title="LinkedIn">
+                <img src="C:\Users\Varun Kumar\Downloads\5296501_linkedin_network_linkedin logo_icon (1).png" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/mr.vk_8" target="_blank" title="Instagram">
+                <img src="C:\Users\Varun Kumar\Downloads\6929237_instagram_icon.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://wa.me/+919381997606" target="_blank" title="WhatsApp">
+                <img src="C:\Users\Varun Kumar\Downloads\5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png" alt="WhatsApp" class="social-icon">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
